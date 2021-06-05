@@ -77,7 +77,7 @@ elif V== 'C':
 else: 
     result = 'непонятный символ'
 
-print (result)
+# print (result)
 
 #чтобы сохранить файл в терминале: git add. 
 #git commit - m "создан файл 2.ifelse.py"
