@@ -46,3 +46,6 @@ my_list =  list(s)
 my_slice = my_list[2:]
 my_slice = my_list[2:5]
 print(my_slice)
+# git addd . 
+# git commit -m "message"
+# git push
