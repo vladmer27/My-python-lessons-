@@ -41,7 +41,7 @@ print (my_list)
 
 # срез списка 
 s= "hello world"
-my_list =  list(s)
+my_list = list(s)
 
 my_slice = my_list[2:]
 my_slice = my_list[2:5]

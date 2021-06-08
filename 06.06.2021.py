@@ -56,7 +56,7 @@ my_list = [1,2,2,2,2,4]
 print(my_list.count(2))
 print(my_list.count(5))
 
-# .copy() метод возвращает неглубокую (не рекурсивную) копию 
+# .copy() метод возвращает неглубокую (нерекурсивную) копию 
 # коллекции (list, dict, set) 
 my_set = {1, 2, 3}
 my_set_2 = my_set.copy()
@@ -101,4 +101,5 @@ my_list = list(my_tuple)
 my_set = set(my_tuple)	
 my_frozenset = frozenset(my_tuple)
 print(my_list, my_set, my_frozenset)
+
 
