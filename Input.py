@@ -22,10 +22,18 @@
 # print (a+b+c)
 
 # программы для расчета суммы длинны катетов
-b = float(input('enter your value for b:'))
-a = float(input("enter our value for a:"))
-c = a*b //2
-print (c)
-print (type(c))
+# b = float(input('enter your value for b:'))
+# a = float(input("enter our value for a:"))
+# c = a*b //2
+# print (c)
+# print (type(c))
 
+n = int (input())
+k = int (input())
+# деление с остатком 
+print (n/k)
+# деление без остатка
+print (n//k)
+# делание с остатком 
+print (n%k)
 
