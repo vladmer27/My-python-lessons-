@@ -8,8 +8,24 @@
 # s = a + b
 # print(s)
 
-a =int(input())
-b = int(input())
-s = a * b 
-print(s)
-print(type(s))
+# a = set(input())
+# b = set(input())
+# s = a + b 
+# print(s)
+# print(type(s))
+
+
+# Эта программа считывает два числа и выводит их сумму
+# a = int(input("enter value for a:"))
+# b = int(input("enter value for b:"))
+# c = int(input("enter value for c:"))
+# print (a+b+c)
+
+# программы для расчета суммы длинны катетов
+b = float(input('enter your value for b:'))
+a = float(input("enter our value for a:"))
+c = a*b //2
+print (c)
+print (type(c))
+
+
