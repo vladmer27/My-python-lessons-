@@ -57,5 +57,42 @@ print(b)
 # Пример 1. Лямбда внутри генератора списка
 my_list = [(lambda arg_1: arg_1.upper())(i) for i in "Hello"]
 # Пример 2. Словарь лямбда-выражений 
-my_lambdas = {'*': arg_1, arg_2: arg_1*arg_2, }
-print(my_list)
+my_lambdas = {
+    '*': lambda arg_1, arg_2: arg_1*arg_2, 
+    '+': lambda w, z: w + z
+}
+# print(my_lambdas["+"](5, 2))
+# print(my_lambdas["*"](5, 2))
+
+
+
+
+
+# 17.06.2021 
+# ***Декоратор*** 
+# Декоратор - функция, обертывающая другую (таргетную) функцию 
+def my_decorator(func_object):
+    # здесь должна быть определена функция def(ключевое слово) wrapper(фунцкия обертка) 
+    def wrapper (w):
+        # доп.функциональность ДО вызова целевой функции
+        print("before") 
+        w = w + 2
+        # вызов целевой функции 
+        func_object(w)
+        # доп. функциональности ПОСЛЕ функции 
+        print('after')
+    # возврат объекта функции обертки 
+    return wrapper
+
+# новый способ применения декоратора 
+@my_decorator 
+
+# целевая (таргетная) фнукция 
+def target_func(arg_1): 
+    print(f"hello! I am target func{arg_1}")
+target_func(10)
+
+
+
+
+    
