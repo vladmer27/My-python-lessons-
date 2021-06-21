@@ -60,9 +60,14 @@
 # print (a//2 + b//2 + c//2 + a%2 + b%2 + c%2)
 
 # *** Длинна шнурка***
-a = int(input())
-b = int(input())
-l = int(input())
-n = int(input())
-print((2*l) + (2*n-1)*a +2*(n-1)*b)
+# a = int(input())
+# b = int(input())
+# l = int(input())
+# n = int(input())
+# print((2*l) + (2*n-1)*a +2*(n-1)*b)
 
+#  *** Дележ яблок*** 
+k = int(input ('Enter your value for apples:'))
+n = float(input ("enter your value for todlers: "))
+print (k/n)
+print (k%n)
